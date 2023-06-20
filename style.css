@@ -3,8 +3,8 @@
     font-style:  normal;
     font-weight: 400;
     font-display: swap;
-    src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
-         url("Inter-Regular.woff?v=3.19") format("woff");
+    src: url(./fonts/Inter-Regular.woff2) format("woff2"),
+         url(./fonts/Inter-Regular.woff) format("woff");
   }
 
   @font-face {
@@ -12,8 +12,8 @@
     font-style:  normal;
     font-weight: 900;
     font-display: swap;
-    src: url("Inter-Black.woff2?v=3.19") format("woff2"),
-         url("Inter-Black.woff?v=3.19") format("woff");
+    src: url(./fonts/Inter-Black.woff2) format("woff2"),
+         url(./fonts/Inter-Black.woff) format("woff");
   }
 
   @font-face {
@@ -21,13 +21,20 @@
     font-style:  normal;
     font-weight: 700;
     font-display: swap;
-    src: url("Inter-Bold.woff2?v=3.19") format("woff2"),
-         url("Inter-Bold.woff?v=3.19") format("woff");
+    src: url(./fonts/Inter-Bold.woff2) format("woff2"),
+         url(./fonts/Inter-Bold.woff) format("woff");
   }
 
 .page {
     min-width: 1280px;
     background-color: #2A2C2F;
+    font-family: 'Inter', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+
 }
 
 .header {
@@ -40,7 +47,9 @@
     align-items: center;
 }
 
-.header__logo {}
+.header__logo {
+   
+}
 
 .header__lang-link {
     display: inline-block;
@@ -54,7 +63,7 @@
     padding-right: 18px;
 }
 
-.header__lang-link:last-of-type {
+.header__lang-link_en {
     text-decoration-line: none;
     padding-right: 0;
 }
@@ -74,7 +83,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
-    line-height: 104%;
+    line-height: 1.04;
     text-align: center;
     color: #FFFFFF;
 }
@@ -114,7 +123,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
-    line-height: 1.1;
+    line-height: 1.07;
     color: #FFFFFF;
 }
 
@@ -180,7 +189,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 106%;
+    line-height: 1.06;
     color: #FFFFFF;
 }
 
@@ -233,7 +242,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.63;
     color: #FFFFFF;
 }
 
@@ -273,7 +282,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 106%;
+    line-height: 1.06;
     color: #FFFFFF;
 }
 
@@ -286,7 +295,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 122%;
+    line-height: 1.2;
     color: #FFFFFF;
     position: relative;
     z-index: 1;
@@ -326,7 +335,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 114%;
+    line-height: 1.14;
     color: #FFFFFF;
 
 }
