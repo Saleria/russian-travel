@@ -1,0 +1,310 @@
+@font-face {
+    src: url(../../../Inter-3.19/Inter-3);
+    font-family: "Inter";
+}
+
+.page {
+    min-width: 1280px;
+    background-color: #2A2C2F;
+}
+
+.header {
+    max-width: 1184px;
+    padding-top: 28px;
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {}
+
+.header__lang-link {
+    display: inline-block;
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    padding-right: 18px;
+}
+
+.header__lang-link:last-of-type {
+    text-decoration-line: none;
+    padding-right: 0;
+}
+
+.lead {
+    margin: 0;
+    padding-left: 148px;
+    padding-right: 148px;
+    padding-top: 56px;
+}
+
+.lead__title {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 720px;
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 104%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lead__subtitle {
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-left: 320px;
+    padding-right: 320px;
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lead__img {
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+    padding-top: 64px;
+}
+
+.intro {
+    max-width: 690px;
+    margin: 0;
+    padding-top: 114px;
+    padding-bottom: 92px;
+    padding-left: 148px;
+}
+
+.intro__title {
+    margin: 0;
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 1.1;
+    color: #FFFFFF;
+}
+
+.intro__subtitle {
+    margin: 0;
+    padding-top: 40px;
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #FFFFFF;
+}
+
+.intro__list {
+    margin: 0;
+    padding-left: 0;
+    padding-top: 33px;
+    list-style: none;
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+.photo-grid {
+    margin: 0 auto;
+    display: grid;
+    padding-bottom: 92px;
+    min-height: 671px;
+    max-width: 1184px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.photo-grid__item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.place {
+    margin: 0 auto;
+    max-width: 984px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 80px;
+
+}
+
+.place:last-of-type {
+    padding-bottom: 92px;
+}
+
+.place__title {
+    margin: 0;
+    padding-bottom: 48px;
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 106%;
+    color: #FFFFFF;
+}
+
+.place__cell {
+    width: calc(50% - 20px);
+}
+
+.place__url {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 48px;
+}
+
+.place__url__title {
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+
+.place__link {
+    display: inline-block;
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.place__link:hover {
+    opacity: 0.8;
+}
+
+.place__img {
+    width: 100%;
+}
+
+.place__paragraph {
+    margin-top: 0;
+    margin-bottom: 26px;
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #FFFFFF;
+}
+
+.cover {
+    max-width: 1184px;
+    min-height: 740px;
+    margin: 0 auto;
+    background-size: cover;
+    background-image: url(./sprint-3-images/cover-trains.jpg);
+    position: relative;
+}
+
+.cover::after {
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+}
+
+.cover__title {
+    max-width: 560px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 245px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.cover__title__link {
+    text-decoration: none;
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 106%;
+    color: #FFFFFF;
+}
+
+.cover__subtitle {
+    max-width: 360px;
+    padding-top: 32px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+
+.footer {
+    margin: 0 auto;
+    padding-top: 92px;
+    padding-bottom: 24px;
+    max-width: 1184px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+
+}
+
+.footer__link {
+    text-decoration: none;
+    padding-right: 18px;
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1;
+    color: #FFFFFF;
+}
+
+.footer__copyright {
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #FFFFFF;
+
+}
