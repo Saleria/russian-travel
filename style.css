@@ -26,7 +26,7 @@
   }
 
 .page {
-    min-width: 1280px;
+    max-width: 1280px;
     background-color: #2A2C2F;
     font-family: 'Inter', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -39,9 +39,8 @@
 
 .header {
     max-width: 1184px;
+    margin: 0 auto;
     padding-top: 28px;
-    padding-left: 48px;
-    padding-right: 48px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,9 +68,8 @@
 }
 
 .lead {
-    margin: 0;
-    padding-left: 148px;
-    padding-right: 148px;
+    margin: 0 auto;
+    max-width: 984px;
     padding-top: 56px;
 }
 
@@ -91,8 +89,7 @@
 .lead__subtitle {
     margin: 0 auto;
     padding-top: 32px;
-    padding-left: 320px;
-    padding-right: 320px;
+    max-width: 640px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -337,5 +334,26 @@
     font-size: 14px;
     line-height: 1.14;
     color: #FFFFFF;
+}
 
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+    }
+    
+    .lead {
+        max-width: 928px;
+    }
+
+    .intro {
+        padding-left: 48px;
+    }
+    
+    .photo-grid {
+        min-height: 942px;
+        max-width: 928px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 14px;
+    }
 }
