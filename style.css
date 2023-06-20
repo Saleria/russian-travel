@@ -1,7 +1,29 @@
 @font-face {
-    src: url(../../../Inter-3.19/Inter-3);
-    font-family: "Inter";
-}
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
+         url("Inter-Regular.woff?v=3.19") format("woff");
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("Inter-Black.woff2?v=3.19") format("woff2"),
+         url("Inter-Black.woff?v=3.19") format("woff");
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("Inter-Bold.woff2?v=3.19") format("woff2"),
+         url("Inter-Bold.woff?v=3.19") format("woff");
+  }
 
 .page {
     min-width: 1280px;
@@ -22,7 +44,7 @@
 
 .header__lang-link {
     display: inline-block;
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -48,7 +70,7 @@
     margin: 0 auto;
     padding: 0;
     max-width: 720px;
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
@@ -62,7 +84,7 @@
     padding-top: 32px;
     padding-left: 320px;
     padding-right: 320px;
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -88,7 +110,7 @@
 
 .intro__title {
     margin: 0;
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
@@ -99,7 +121,7 @@
 .intro__subtitle {
     margin: 0;
     padding-top: 40px;
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -112,7 +134,7 @@
     padding-left: 0;
     padding-top: 33px;
     list-style: none;
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -154,7 +176,7 @@
 .place__title {
     margin: 0;
     padding-bottom: 48px;
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -174,7 +196,7 @@
 }
 
 .place__url__title {
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -187,7 +209,7 @@
 
 .place__link {
     display: inline-block;
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -207,7 +229,7 @@
 .place__paragraph {
     margin-top: 0;
     margin-bottom: 26px;
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -247,7 +269,7 @@
 
 .cover__title__link {
     text-decoration: none;
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -260,7 +282,7 @@
     padding-top: 32px;
     margin: 0 auto;
     text-align: center;
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -291,7 +313,7 @@
 .footer__link {
     text-decoration: none;
     padding-right: 18px;
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -300,7 +322,7 @@
 }
 
 .footer__copyright {
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
