@@ -517,10 +517,24 @@
     }
 }
 
+@media screen and (max-width: 960px) {
+    .place {
+        padding-left: 24px;
+        padding-right: 24px;        
+    }
+}
+
 @media screen and (max-width: 768px) {
     .place {
         max-width: 720px;
         padding-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .place {
+        padding-left: 16px;
+        padding-right: 16px;        
     }
 }
 
