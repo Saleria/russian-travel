@@ -216,7 +216,7 @@
     padding-bottom: 48px;
 }
 
-.place__url__title {
+.place__url-title {
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -288,7 +288,7 @@
 
 }
 
-.cover__title__link {
+.cover__title-link {
     text-decoration: none;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
@@ -503,7 +503,7 @@
 @media screen and (max-width: 560px) {
     .photo-grid {
         min-height: 2724px;
-        max-width: 288;
+        max-width: 288px;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(6, 1fr);
         gap: 12px;
@@ -563,7 +563,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .place__url__title {
+    .place__url-title {
         line-height: 1;
     }
 }
@@ -640,7 +640,7 @@
 
 
 @media screen and (max-width: 560px) {
-    .cover__title__link {
+    .cover__title-link {
         font-size: 32px;
         line-height: 1.09;
     }
