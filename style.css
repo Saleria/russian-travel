@@ -363,13 +363,19 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .header {
-        padding: 28px 16px 0 16px;
+        padding: 16px 16px 0 16px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
+    .header__logo {
+        max-width: 142px;
+    }
+}
+
+@media screen and (max-width: 560px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 1.11;
@@ -382,13 +388,20 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .lead {
         padding: 48px 16px 0 16px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
+    .lead__title {
+        font-size: 64px;
+        line-height: 1.1;
+    }
+}
+
+@media screen and (max-width: 560px) {
     .lead__title {
         max-width: 288px;
         font-size: 40px;
@@ -396,7 +409,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .lead__subtitle {
         padding-top: 16px;
         max-width: 288px;
@@ -419,7 +432,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .route {
         width: 100%;
         margin: 0;
@@ -427,7 +440,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .route__caption {
         padding-left: 16px;
     }
@@ -446,21 +459,21 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .intro {
         padding-left: 16px;
         padding-top: 64px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .intro__title {
         font-size: 32px;
         line-height: 1.09;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .intro__subtitle {
         padding-right: 16px;
     }
@@ -487,7 +500,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .photo-grid {
         min-height: 2724px;
         max-width: 288;
@@ -511,7 +524,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .place {
         max-width: 320px;
         padding-left: 16px;
@@ -527,7 +540,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .place__title {
         font-size: 32px;
         line-height: 1.09;
@@ -541,13 +554,13 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .place__link {
         padding-bottom: 32px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .place__cell {
         width: 100%;
     }
@@ -559,13 +572,13 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .place:last-of-type {
         padding-bottom: 66px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .place__img {
         width: calc(100% + 32px);
         margin-left: -16px;
@@ -592,7 +605,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .cover {
         min-height: 200px;
     }
@@ -604,7 +617,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .cover__title {
         max-width: 288px;
         padding-top: 33px;
@@ -612,14 +625,14 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .cover__title__link {
         font-size: 32px;
         line-height: 1.09;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .cover__subtitle {
         max-width: 288px;
         padding-top: 16px;
@@ -634,14 +647,14 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .footer {
         padding: 64px 0px 24px 16px;
         display: inline-block;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .footer__list {
         display: inline-block;
         margin: 0;
@@ -649,20 +662,20 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .footer__list-item {
         padding: 0 0 32px 16px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .footer__link {
         font-size: 24px;
         line-height: 1;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .footer__copyright {
         margin: 0;
         padding: 16px 0 24px 16px;
