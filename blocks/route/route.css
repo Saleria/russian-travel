@@ -6,14 +6,14 @@
 
 @media screen and (max-width: 1024px) {
     .route {
-        max-width: 928px;
-        padding-top: 56px;
+        padding: 56px 48px 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .route {
         width: 100%;
+        padding: 56px 0 0;
         margin: 0;
     }
 }
