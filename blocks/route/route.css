@@ -1,0 +1,25 @@
+.route {
+    max-width: 984px;
+    margin: 0 auto;
+    padding-top: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+    .route {
+        max-width: 928px;
+        padding-top: 56px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .route {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .route {
+        padding-top: 40px;
+    }
+}
