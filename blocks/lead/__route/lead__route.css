@@ -1,0 +1,22 @@
+.lead__route {
+    margin: 0;
+    padding: 64px 148px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__route {
+       padding: 56px 48px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__route {
+       padding: 56px 0 0;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .lead__route {
+       padding: 40px 0 0;
+    }
+}

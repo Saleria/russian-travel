@@ -5,3 +5,8 @@
     padding-bottom: 48px;
 }
 
+@media screen and (max-width: 560px) {
+    .place__url {
+        padding-bottom: 32px;
+    }
+}

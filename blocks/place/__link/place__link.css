@@ -7,14 +7,10 @@
     line-height: 1.2;
     text-decoration-line: underline;
     color: #FFFFFF;
+    transition: all .3s linear;
+    max-width: fit-content;
 }
 
 .place__link:hover {
     opacity: 0.8;
-}
-
-@media screen and (max-width: 560px) {
-    .place__link {
-        padding-bottom: 32px;
-    }
 }

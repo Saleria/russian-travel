@@ -2,7 +2,7 @@
     width: calc(50% - 20px);
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 767px) {
     .place__cell {
         width: 100%;
     }
