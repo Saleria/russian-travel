@@ -22,6 +22,9 @@
 @media screen and (max-width: 767px) {
     .place__cell {
         width: 100%;
+    }
+
+    .place__cell:nth-child(odd) {
         padding-right: 0;
     }
 }
