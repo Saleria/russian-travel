@@ -7,13 +7,13 @@
     padding-right: 40px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .place__cell:nth-child(odd) {
         padding-right: 32px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .place__cell:nth-child(odd) {
         padding-right: 28px;
     }
